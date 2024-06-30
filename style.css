@@ -1,0 +1,145 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: url('images/Danaukaca.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* Header Styles */
+header {
+    background: rgba(117, 113, 113, 0.6);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ffeb3b;
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 10px 0 0;
+    color: #ffeb3b;
+}
+
+/* Navigation Styles */
+nav {
+    background: rgba(230, 222, 222, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffeb3b;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* Section Styles */
+section {
+    background: rgba(164, 155, 155, 0.7);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #ffeb3b;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #ffeb3b;
+}
+
+/* Article Styles */
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #ffeb3b;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+article p {
+    margin: 10px 0;
+}
+
+/* Contact Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+    color: #ffeb3b;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+form button {
+    padding: 10px 20px;
+    background: #ffeb3b;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #ffc107;
+}
+
+/* Footer Styles */
+footer {
+    background: rgba(138, 134, 134, 0.8);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    color: #ffeb3b;
+}
